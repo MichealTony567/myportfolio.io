@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #292b2c;
+}
+
+nav{
+    background: #0a0a0a;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    position: fixed;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 5px;
+    padding-top: 2%;
+    padding-left: 7%;
+    font-weight: bold;
+}
+label.logo .img-ii{
+    width: 110px;
+    margin-top: -1%;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    box-sizing: border-box;
+    margin-right: 7%;
+}
+
+nav ul span .img-logo{
+    display: none;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 55px;
+    margin: 0 7px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+a.active{
+    border: 2px solid #ffffff;
+    transition: .5s;
+    padding: 12px 23px;
+    border-radius: 30px;
+}
+a.active:hover{
+    scale: 2.5;
+    background: #939ba098;
+}
+a:hover{
+    color: #b6d1e2;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 38px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+.vip{
+    height: 8%;
+}
+
+
+
+
+
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.container .contain{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .contain .lef{
+    width: 40%;
+}
+.container .contain .lef .roll{
+    display: flex;
+    justify-content: center;
+}
+.container .contain .lef .roll img{
+    border: 3px solid #52bdff;
+    border-radius: 50%;
+    padding: 3%;
+    width: 75%;
+}
+.container .contain .lef h5{
+    color: gray;
+    margin-bottom: -3%;
+    margin-top: 15%;
+}
+.container .contain .lef h2 span{
+    color: #48adec;
+}
+.container .contain .lef p{
+    margin-right: 24%;
+}
+.container .contain .lef .link{
+    display: flex;
+    justify-content: safe;
+}
+.container .contain .lef .link a{
+    width: 10%;
+    margin-right: 3%;
+}
+.container .contain .lef .link a img{
+    width: 100%;
+    transition: 0.3s;
+}
+.container .contain .lef .link img:hover{
+    filter: drop-shadow(2px 2px 20px #48adec);
+}
+
+
+
+
+.container .contain .rig{
+    width: 45%;
+}
+.container .contain .rig button{
+    background: #48adec;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+.container .contain .rig button a{
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .contain .rig button:hover{
+    background: #84d0ff;
+}
+
+
+.container .contain .rig .pan{
+    margin-top: 12%;
+}
+.container .contain .rig .pan span{
+    display: flex;
+    justify-content: safe;
+}
+.container .contain .rig .pan span .san{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .contain .rig .pan span .san .le p{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 12px 25px;
+    transition: 0.3s;
+}
+.container .contain .rig .pan span .san .ri p{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 12px 25px;
+    transition: 0.3s;
+}
+.container .contain .rig .pan span .san p:hover{
+    background: #000;
+}
+
+
+
+footer{
+    background: #000000;
+    color: #fff;
+    padding: 1% 0;
+    margin-top: 3%;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 986px){
+
+    label.logo{
+        font-size: 30px;
+        padding-left: 40px;
+        margin-left: 3%;
+    }
+    label.logo .img-ii{
+        width: 110px;
+        padding-top: 0%;
+    }
+    nav ul{
+        float: right;
+        list-style: none;
+        box-sizing: border-box;
+        margin-right: 3%;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+
+    
+.container .contain .rig .pan span .san{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+footer{
+    background: #000000;
+    color: #fff;
+    padding: 1% 0;
+    margin-top: 3%;
+    padding-bottom: 4%;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 802px) {
+    .container{
+        height: auto;
+    }
+    nav{
+        position: fixed;
+        width: 100%;
+    }
+    .checkbtn{
+        display: block;
+        color: rgb(255, 255, 255);
+        margin-right: 8%;
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    label.logo .img-ii{
+        width: 110px;
+        margin-top: -2%;
+    }
+  
+    ul{
+        position: fixed;
+        width: 90%;
+        height: 100vh;
+        background: #292b2c;
+        top: 64px;
+        left: -90%;
+        text-align: center;
+        padding-top: 5%;
+        transition: all .5s;
+    }
+  
+    nav ul span .img-logo{
+        display: block;
+        width: 100%;
+    }
+  
+    nav ul li{
+        display: block;
+        margin: 30px 0;
+        line-height: 30px;
+    }
+  
+    nav ul li a{
+        font-size: 20px;
+        color: #fff;
+    }
+    a.active{
+        background: none;
+        color: #ffffff;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    #check:checked ~ ul{
+        left: -50px;
+        transition: .5s;
+    }
+
+
+    
+
+
+    
+
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+.container .contain{
+    width: 80%;
+    display: block;
+}
+.container .contain .lef{
+    width: auto;
+    margin-bottom: 25%;
+}
+.container .contain .lef .roll{
+    display: flex;
+    justify-content: center;
+}
+.container .contain .lef .roll img{
+    border: 3px solid #52bdff;
+    border-radius: 50%;
+    padding: 3%;
+    width: 75%;
+}
+
+
+
+
+.container .contain .rig{
+    width: auto;
+}
+.container .contain .rig button{
+    background: #48adec;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+.container .contain .rig button a{
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .contain .rig button:hover{
+    background: #84d0ff;
+}
+
+
+.container .contain .rig .pan{
+    margin-top: 12%;
+}
+.container .contain .rig .pan span .san{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
